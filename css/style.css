@@ -130,7 +130,7 @@ nav {
         "img subtitle";
     grid-template-columns: min-content max-content;
   }
-}
+
 
   .intro__img {
     grid-area: img;
@@ -148,3 +148,13 @@ nav {
     left: -1.5em;
     width: calc(100% + 1.5em);
   }
+}
+
+/* My Services Section */
+
+.my-services {
+  background-color: var(--clr-dark);
+  background-image: url(../img/services-bg.jpg);
+  background-size: cover;
+  color: var(--clr-light);
+}
