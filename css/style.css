@@ -458,3 +458,43 @@ header {
 .social-list__link {
   padding: .5em;
 }
+
+
+/* Individual portfolio item style */
+
+.portfolio-item-individual {
+  padding: 1em 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.portfolio-item-individual img {
+  margin: 0 auto;
+  transition: 
+      transform 750ms cubic-bezier(.5, 0, .5, 1),
+      opacity 250ms linear;
+  background-color: var(--clr-accent);
+}
+
+
+.portfolio-item-individual img:hover {
+  transform: scale(1.1);
+  opacity: .7;
+}
+
+.portfolio-item-individual a {
+  color: var(--clr-accent);
+}
+
+.red {
+  color: red;
+}
